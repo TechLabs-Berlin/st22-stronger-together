@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from './Footer';
+import ProfilePage from './ProfilePage';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo"/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,9 +21,22 @@ function App() {
           Learn React
         </a>
       </header>
-      <Footer/>
+      <ProfilePage />
     </div>
   );
 }
+
+// HomePage.js
+// - Header.js
+//  - Navigation
+//    - Logo
+//    - Buttons
+// - Hero
+// - FeaturesList
+//    - FeatureItem
+// - Footer
+
+// Sign Up
+// Sign In
 
 export default App;

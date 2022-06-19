@@ -1,3 +1,5 @@
+import { Button, Typography } from "@mui/material";
+
 const links = [
   { displayName: "A", href: "" },
   { displayName: "B", href: "" },
@@ -14,14 +16,13 @@ function Footer() {
         <section className="">
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">FOOTER CONTENT</h5>
-
-              <p>
+              <Typography variant="h5">FOOTER CONTENT</Typography>
+              <Typography variant="p">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae modi cum ipsam ad, illo possimus laborum ut reiciendis
                 obcaecati. Ducimus, quas. Corrupti, pariatur eaque? Reiciendis
                 assumenda iusto sapiente inventore animi?
-              </p>
+              </Typography>
             </div>
 
             <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
@@ -126,9 +127,17 @@ function Footer() {
         <section className="">
           <p className="d-flex justify-content-center align-items-center">
             <span className="me-3">Register for free</span>
-            <button type="button" className="btn btn-outline-light btn-rounded">
+            {/* <button type="button" className="btn btn-outline-light btn-rounded">
               Sign up!
-            </button>
+            </button> */}
+            <Button
+              variant="outlined"
+              onClick={() => {
+                console.log("Sign Up btn clicked");
+              }}
+            >
+              Sign up!
+            </Button>
           </p>
         </section>
 
