@@ -3,7 +3,9 @@ import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Header from './components/Head/Header';
 import Hero from './components/hero';
-import ExplainHero from './components/ExplanationHero/ExplainHero';
+// import ExplainHero from './components/ExplanationHero/ExplainHero';
+import ExplainHero from './components/other files/ExplainHeroCopy';
+
 import LogIn from './components/LogIn';
 import SignUp from './components/SignUp';
 
