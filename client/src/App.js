@@ -1,34 +1,17 @@
-
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import Header from './components/Head/Header';
-import Hero from './components/hero';
-// import ExplainHero from './components/ExplanationHero/ExplainHero';
-import ExplainHero from './components/other files/ExplainHeroCopy';
-
-import LogIn from './components/LogIn';
-import SignUp from './components/SignUp';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./LandingPage";
+import LoginPage from "./LoginPage";
+import RegisterPage from "./RegisterPage";
 
 function App() {
   return (
-    <div>
-     {/* -----landing page---------*/}
-      <Header/>
-      <Hero/>
-      <Cards/>
-      <ExplainHero/>
-      <Footer/>
-     
- 
-  {/* --------LOGIN PAGE---------
-   <LogIn/>       
-   */}
-
-   {/*--------SIGNUP PAGE--------
-   <SignUp/>
-   */}
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<LandingPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
