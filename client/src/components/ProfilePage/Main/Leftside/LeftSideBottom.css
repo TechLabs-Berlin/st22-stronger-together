@@ -1,0 +1,106 @@
+.leftBottom {
+  height: 80rem;
+  width: 30rem;
+  background-color: rgb(235, 233, 230);
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.abovedivider {
+  height: 3rem;
+}
+
+.Divider.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {
+  border-bottom-width: medium;
+}
+
+.basicInfoMain,
+.basicInfoMain1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.basicInfoMain1 {
+  height: 12rem;
+}
+
+.basicInfo {
+  height: 3rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  margin-left: 1rem;
+}
+
+.basicInfochild {
+  height: 5rem;
+  width: 100%;
+  background-color: aquamarin;
+
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+#outlined-basic {
+  height: 2px;
+  width: 400px;
+  background-color: aliceblue;
+}
+
+.birthday#outlined-basic {
+  width: 5px;
+}
+
+.birthday,
+.currentlocation,
+.originallyfrom,
+.language,
+.othersfield {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.birthday,
+.currentlocation,
+.originallyfrom,
+.language,
+p {
+  margin-left: 1rem;
+}
+
+.basicInfo1 {
+  height: 5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.lookingforButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  box-sizing: border-box;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  letter-spacing: 0.3857em;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.aboutyou {
+  height: 5rem;
+  padding-top: 2rem;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LandingPage from "./LandingPage";
-import LoginPage from "./LoginPage";
-import RegisterPage from "./RegisterPage";
+import LandingPage from "./pages/LandingPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+// TODO: Reimport once Material UI imports are updated
+// import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (

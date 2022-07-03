@@ -1,16 +1,19 @@
-import React from 'react'
-import Header from '../components/Head/Header'
-import {makeStyles} from '@material-ui/core/styles';
+import Cards from "../components/Cards";
+import Footer from "../components/Footer";
+import Header from "../components/Head/Header";
+import Hero from "../components/hero";
+import ExplainHero from "../components/other files/ExplainHeroCopy";
 
-const useStyles= makeStyles((theme)=> ({}));
-const LandingPage =() => {
-        return (
-<div>
-    <Header/>
-    
-</div>
+function LandingPage() {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Cards />
+      <ExplainHero />
+      <Footer />
+    </div>
+  );
+}
 
-        );
-    }
- 
 export default LandingPage;
