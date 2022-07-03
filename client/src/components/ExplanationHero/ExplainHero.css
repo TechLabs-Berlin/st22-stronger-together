@@ -1,0 +1,15 @@
+.hero_s{
+    background-color: white;
+    justify-content: space-around;
+} 
+h1{
+    padding: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+.fragmentElement{
+    text-align: center;
+}
