@@ -9,8 +9,6 @@ import Divider from "@mui/material/Divider";
 import InboxIcon from "@mui/icons-material/Inbox";
 import DraftsIcon from "@mui/icons-material/Drafts";
 import ChatIcon from "@mui/icons-material/Chat";
-import FeedIcon from "@mui/icons-material/Feed";
-import { ClassNames } from "@emotion/react";
 import "./RightSide.css";
 
 const RightSide = () => {

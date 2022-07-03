@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Navbar from "../components/ProfilePage/Navbar/Navbar";
 import LeftSideBottom from "../components/ProfilePage/Main/Leftside/LeftSideBottom";
 import LeftSideTop from "../components/ProfilePage/Main/Leftside/LeftSideTop";
