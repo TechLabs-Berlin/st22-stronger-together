@@ -5,7 +5,7 @@ import {
   IconButton,
   Typography,
   TextField,
-} from "@material-ui/material";
+} from "@mui/material";
 import { Stack } from "@mui/material";
 import Badge from "@mui/material/Badge";
 import MailIcon from "@mui/icons-material/Mail";

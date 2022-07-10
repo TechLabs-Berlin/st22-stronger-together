@@ -19,7 +19,7 @@ const RightSide = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <FeedIcon />
+                {/* <FeedIcon /> */}
               </ListItemIcon>
               <ListItemText primary="Feed" />
             </ListItemButton>
@@ -27,7 +27,7 @@ const RightSide = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <FeedIcon />
+                {/* <FeedIcon /> */}
               </ListItemIcon>
               <ListItemText primary="Hangouts" />
             </ListItemButton>
