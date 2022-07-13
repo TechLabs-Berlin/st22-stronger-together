@@ -3,7 +3,7 @@ import Navbar from "../components/ProfilePage/Navbar/Navbar";
 import LeftSideBottom from "../components/ProfilePage/Main/Leftside/LeftSideBottom";
 import LeftSideTop from "../components/ProfilePage/Main/Leftside/LeftSideTop";
 import RightSide from "../components/ProfilePage/Main/Rightside/RightSide";
-import './ProfilePage.css'
+import "./ProfilePage.css";
 
 const ProfilePage = () => {
   return (
