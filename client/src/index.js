@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { FirebaseAppProvider } from "reactfire";
 
+// TODO: Move these to env vars
 const firebaseConfig = {
   apiKey: "AIzaSyBe_zF67rLABXq3BfukHqvv6Y8ENZter2k",
   authDomain: "stronger-together-a4a98.firebaseapp.com",
