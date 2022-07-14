@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Authentication Screen</title>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 </head>
 <body class = "grey lighten-3">
     <nav class="z-depth-0 grey lighten-4">
@@ -115,10 +114,38 @@
     </ul>
   </div>
 
+  <div>
+    <h3>Profile Data Search</h3>
+    <strong>User ID:</strong><input type = "text" id = "userIdSearch">
+    <button id = "userSearch">Search User</button>
+    <div>
+        <p><strong>First name: </strong><span id = "firstNameField"> </span></p>
+        <p><strong>Last name: </strong><span id = "lastNameField"> </span></p>
+        <p><strong>Age: </strong><span id = "ageField"> </span></p>
+        <p><strong>Living in: </strong><span id = "residenceField"> </span></p>
+    </div>
+  </div>
+
+  <div>
+    <h3>Profile Data Input</h3>
+    <strong>User ID: </strong><input type = "text" id = "userIdInput">
+    <strong>First name: </strong><input type = "text" id = "firstNameInput">
+    <strong>Last name: </strong><input type = "text" id = "lastNameInput">
+    <strong>Age: </strong><input type = "text" id = "ageInput">
+    <button id = "dataInput">Save Data</button>
+  </div>
+
+  <div>
+    <h3>Permanent Profile</h3>
+        <p><strong>First name: </strong><span id = "firstNameFieldPerm"> </span></p>
+        <p><strong>Last name: </strong><span id = "lastNameFieldPerm"> </span></p>
+        <p><strong>Age: </strong><span id = "ageFieldPerm"> </span></p>
+        <p><strong>Living in: </strong><span id = "residenceFieldPerm"> </span></p>
+  </div>
+
    <!-- Compiled and minified JavaScript -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   <script src="auth.js"></script>
-   <script src="index.js"></script>
+   
    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
@@ -132,7 +159,7 @@
         appId: "1:1033826365945:web:3f949d14dc7d53ee02cd28",
         measurementId: "G-R0WN4J4D9G"    
     };
-    firebase.initializeApp(firebaseConfig)
+    firebase.initializeApp(firebaseConfig);
 
     // make auth and firestore references
     const auth = firebase.auth();
@@ -142,5 +169,8 @@
     db.settings({ timestampsInSnapshots: true });
 
    </script>
+   <script src="auth.js"></script>
+   <script src="index.js"></script>
+   <script src = "profileFunctionality.js"></script>
 </body>
 </html>
