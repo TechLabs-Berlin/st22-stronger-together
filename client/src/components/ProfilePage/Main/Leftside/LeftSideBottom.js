@@ -5,8 +5,6 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Fab from "@mui/material/Fab";
 import AddIcon from "@mui/icons-material/Add";
-
-
 import "./LeftSideBottom.css";
 
 const LeftSideBottom = () => {
