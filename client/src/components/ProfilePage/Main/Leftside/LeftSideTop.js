@@ -12,7 +12,11 @@ const LeftSideTop = () => {
   // const { data: signinResult } = useSigninCheck();
   // const { user } = signinResult;
 
-  const userRef = doc(useFirestore(), "users", "U9XXGbFKgGMSTp1HRBbYUan7yBz1");
+  const userRef = doc(
+    useFirestore(),
+    "userProfiles",
+    "yGi38cR5fCetslHqxPUS8ZiEqG13"
+  );
   const { status, data } = useFirestoreDocData(userRef);
 
   if (status === "loading") {
@@ -34,8 +38,8 @@ const LeftSideTop = () => {
           ></img>
         </div>
         <div>
-          <h3>{data.givenName}</h3>
-          <h4>{data.familyName}</h4>
+          <h3>{data.firstName}</h3>
+          <h4>{data.lastName}</h4>
         </div>
       </div>
     </section>

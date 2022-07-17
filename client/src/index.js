@@ -4,17 +4,21 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { FirebaseAppProvider } from "reactfire";
+import { initializeApp } from "firebase/app";
 
 // TODO: Move these to env vars
+
+// FIREBASE Configuration with
 const firebaseConfig = {
-  apiKey: "AIzaSyBe_zF67rLABXq3BfukHqvv6Y8ENZter2k",
-  authDomain: "stronger-together-a4a98.firebaseapp.com",
-  projectId: "stronger-together-a4a98",
-  storageBucket: "stronger-together-a4a98.appspot.com",
-  messagingSenderId: "757270099444",
-  appId: "1:757270099444:web:b517641111f996bf88b5a1",
-  measurementId: "G-Q37HPSBEPR",
+  apiKey: "AIzaSyBN8dLXDXFgO8EKvOAWRStpkagnPg_ErH4",
+  authDomain: "tech-labs-test-project.firebaseapp.com",
+  projectId: "tech-labs-test-project",
+  storageBucket: "tech-labs-test-project.appspot.com",
+  messagingSenderId: "1033826365945",
+  appId: "1:1033826365945:web:3f949d14dc7d53ee02cd28",
+  measurementId: "G-R0WN4J4D9G",
 };
+const app = initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <FirebaseAppProvider firebaseConfig={firebaseConfig}>
