@@ -6,13 +6,14 @@ import "./LeftSideTop.css";
 
 import { doc } from "firebase/firestore";
 import { useFirestoreDocData, useFirestore, useSigninCheck } from "reactfire";
+import {getAuth} from 'firebase/auth'
 
 const LeftSideTop = () => {
   // TODO: Use not hardcoded user
   // const { data: signinResult } = useSigninCheck();
-  // const { user } = signinResult;
+  const user = getAuth().currentUser;
 
-  const userRef = doc(useFirestore(), "users", "U9XXGbFKgGMSTp1HRBbYUan7yBz1");
+  const userRef = doc(useFirestore(), "userProfiles", user.uid);
   const { status, data } = useFirestoreDocData(userRef);
 
   if (status === "loading") {
