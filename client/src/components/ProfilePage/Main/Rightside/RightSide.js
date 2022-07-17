@@ -6,9 +6,11 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Divider from "@mui/material/Divider";
-import InboxIcon from "@mui/icons-material/Inbox";
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import DraftsIcon from "@mui/icons-material/Drafts";
 import ChatIcon from "@mui/icons-material/Chat";
+import FeedIcon from '@mui/icons-material/Feed';
+import PeopleIcon from '@mui/icons-material/People';
 import "./RightSide.css";
 
 const RightSide = () => {
@@ -19,7 +21,7 @@ const RightSide = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                {/* <FeedIcon /> */}
+                <FeedIcon />
               </ListItemIcon>
               <ListItemText primary="Feed" />
             </ListItemButton>
@@ -27,7 +29,7 @@ const RightSide = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                {/* <FeedIcon /> */}
+                <PeopleIcon />
               </ListItemIcon>
               <ListItemText primary="Hangouts" />
             </ListItemButton>
@@ -35,7 +37,7 @@ const RightSide = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <InboxIcon />
+                <AddShoppingCartIcon />
               </ListItemIcon>
               <ListItemText primary="Marketplace" />
             </ListItemButton>

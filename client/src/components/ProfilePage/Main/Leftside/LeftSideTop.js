@@ -35,8 +35,8 @@ const LeftSideTop = () => {
           ></img>
         </div>
         <div>
-          <h3>{data.givenName}</h3>
-          <h4>{data.familyName}</h4>
+          <h3>{data.firstName}</h3>
+          <h4>{data.lastName}</h4>
         </div>
       </div>
     </section>

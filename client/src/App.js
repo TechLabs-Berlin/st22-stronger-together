@@ -6,11 +6,7 @@ import RegisterPage from "./pages/RegisterPage";
 import FeedPage from "./pages/FeedPage";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
-import {
-  FirestoreProvider,
-  AuthProvider,
-  useFirebaseApp,
-} from "reactfire";
+import { FirestoreProvider, AuthProvider, useFirebaseApp } from "reactfire";
 
 function App() {
   const app = useFirebaseApp();
@@ -21,8 +17,6 @@ function App() {
   return (
     <AuthProvider sdk={authInstance}>
       <FirestoreProvider sdk={firestoreInstance}>
-        {/* <h1>🌯</h1>
-      <BurritoTaste /> */}
         <BrowserRouter>
           <Routes>
             <Route index element={<LandingPage />} />
