@@ -14,8 +14,8 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import firebase from 'firebase'
-import {db} from '../index.js'
+import firebase from 'firebase';
+import {db} from '../index.js';
 
 function Copyright(props) {
   return (
@@ -30,7 +30,7 @@ function Copyright(props) {
       {"."}
     </Typography>
   );
-}
+};
 
 const theme = createTheme();
 
