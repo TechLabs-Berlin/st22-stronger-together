@@ -9,12 +9,11 @@ function SendMessage({ scroll }) {
     const [msg, setMsg] = useState('')
 
     async function sendMessage(e) {
-        e.preventDefault()
-        const { uid, photoURL } = auth.currentUser
+        e.preventDefault();
+        const { uid, photoURL } = auth.currentUser;
 
         await db.collection('messages').add({
             text: msg,
-            photoURL,
             uid,
             createdAt: firebase.firestore.FieldValue.serverTimestamp()
         })

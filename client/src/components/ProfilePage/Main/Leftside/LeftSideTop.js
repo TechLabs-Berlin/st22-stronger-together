@@ -5,7 +5,7 @@ import "./LeftSideTop.css";
 // Firebase
 
 import { doc } from "firebase/firestore";
-import { useFirestoreDocData, useFirestore, useSigninCheck } from "reactfire";
+import { useFirestoreDocData, useFirestore, useSigninCheck, getFirestore } from "reactfire";
 import {getAuth} from 'firebase/auth'
 
 const LeftSideTop = () => {

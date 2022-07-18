@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import firebase from 'firebase'
+import {db} from '../index.js'
 
 function Copyright(props) {
   return (
@@ -55,9 +56,10 @@ export default function SignUp() {
       email,
       password
     );
-    firebase.firestore().collection('userProfiles').doc(getAuth().currentUser.uid).add({
-      userID: getAuth().currentUser.uid
-    });
+    await db.collection('userProfiles').doc('userID12345').set({
+      uid: 'userID12345',
+      email: email,
+      password: password});
     // TODO: Store userInformation somewhere
     navigate("/profile");
   };
