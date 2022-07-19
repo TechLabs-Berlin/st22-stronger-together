@@ -14,10 +14,10 @@ const Header = () => {
         <img className="logo" src={Logo} alt="logo" />
 
         <Stack className="navBar" direction="row" alignItems="left" spacing={2}>
-          <Button className="navbutton" onClick={() => navigate(`login`)}>
+          <Button className="navButton" onClick={() => navigate(`login`)}>
             Log In
           </Button>
-          <Button className="navbutton"  onClick={() => navigate(`register`)}>
+          <Button className="navButton"  onClick={() => navigate(`register`)}>
             {" "}
             Sign Up
           </Button>
