@@ -15,8 +15,11 @@ import ChatIcon from "@mui/icons-material/Chat";
 import FeedIcon from "@mui/icons-material/Feed";
 import PeopleIcon from "@mui/icons-material/People";
 import "./RightSide.css";
+import { useNavigate } from "react-router-dom";
 
 const RightSide = () => {
+  const navigate = useNavigate();
+
   return (
     <Box className="new" sx={{ width: "100%", maxWidth: 360 }}>
       <nav aria-label="main mailbox folders">
@@ -26,7 +29,10 @@ const RightSide = () => {
               <ListItemIcon>
                 <FeedIcon />
               </ListItemIcon>
-              <ListItemText primary="Feed" />
+              <ListItemText
+                primary="Feed Page"
+                onClick={() => navigate(`feedpage`)}
+              />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
