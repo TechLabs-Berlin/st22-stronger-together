@@ -9,6 +9,7 @@ const Header = () => {
 
   return (
     <AppBar className="navBar toolBar" position="sticky">
+
       <Toolbar>
         <img className="logo" src={Logo} alt="logo" />
 
