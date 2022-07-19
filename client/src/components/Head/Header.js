@@ -8,7 +8,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <AppBar position="sticky">
+    <AppBar className="navBar toolBar" position="sticky">
       <Toolbar>
         <img className="logo" src={Logo} alt="logo" />
 
