@@ -1,15 +1,15 @@
-import React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-
+import React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import "./Cards.css";
 
 export default function ImgMediaCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="Card" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="make friends"
@@ -21,7 +21,8 @@ export default function ImgMediaCard() {
           Meet new people
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem mnfmgfmgcmnffgdgfdfgdngfdcgfc mgfdngdgfndsfndx nfdnfc fdnfdxnvx nfxfxdbfx
+          Lorem mnfmgfmgcmnffgdgfdfgdngfdcgfc mgfdngdgfndsfndx nfdnfc fdnfdxnvx
+          nfxfxdbfx
         </Typography>
       </CardContent>
       <CardActions>

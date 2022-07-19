@@ -16,12 +16,7 @@ const Navbar = () => {
   return (
     <AppBar position="static">
       <Toolbar className="MuiAppBar-colorPrimary toolbar new">
-        <IconButton
-          size="large"
-          edge="start"
-          color="inherit"
-          aria-label="logo"
-        ></IconButton>
+        <IconButton size="large" edge="start" aria-label="logo"></IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           STRONGER <br />
           TOGETHER

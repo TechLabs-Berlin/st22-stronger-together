@@ -4,3 +4,14 @@
     flex-direction: row;
     justify-content:space-evenly;
 }
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    background-color: none; 
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    background: linear-gradient(112.9deg, rgba(217, 217, 217, 0.48) 0%, rgba(217, 217, 217, 0.12) 99.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+}
