@@ -17,20 +17,22 @@ function App() {
   const authInstance = getAuth(app);
 
   return (
-    <AuthProvider sdk={authInstance}>
-      <FirestoreProvider sdk={firestoreInstance}>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<LandingPage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/profile" element = {<ProfilePageDisplay/>}/>
-            <Route path="/update-profile" element={<ProfilePageUpdate />} />
-            <Route path="/feedpage" element={<FeedPage />} />
-          </Routes>
-        </BrowserRouter>
-      </FirestoreProvider>
-    </AuthProvider>
+    <div className="App">
+      <AuthProvider sdk={authInstance}>
+        <FirestoreProvider sdk={firestoreInstance}>
+          <BrowserRouter>
+            <Routes>
+              <Route index element={<LandingPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/profile" element={<ProfilePageDisplay />} />
+              <Route path="/update-profile" element={<ProfilePageUpdate />} />
+              <Route path="/feedpage" element={<FeedPage />} />
+            </Routes>
+          </BrowserRouter>
+        </FirestoreProvider>
+      </AuthProvider>
+    </div>
   );
 }
 
