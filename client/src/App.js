@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import LoginPage from "./pages/LoginPage";
 import ProfilePage from "./pages/ProfilePage";
@@ -11,7 +11,6 @@ import "./App.css";
 
 function App() {
   const app = useFirebaseApp();
-
   const firestoreInstance = getFirestore(app);
   const authInstance = getAuth(app);
 
@@ -26,6 +25,7 @@ function App() {
               <Route path="/register" element={<RegisterPage />} />
               <Route path="/profile" element={<ProfilePage />} />
               <Route path="/feedpage" element={<FeedPage />} />
+              <Route path="/profile/feedpage" element={<FeedPage />} />
             </Routes>
           </BrowserRouter>
         </FirestoreProvider>
