@@ -7,6 +7,7 @@ import FeedPage from "./pages/FeedPage";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { FirestoreProvider, AuthProvider, useFirebaseApp } from "reactfire";
+import "./App.css";
 
 function App() {
   const app = useFirebaseApp();
@@ -15,19 +16,21 @@ function App() {
   const authInstance = getAuth(app);
 
   return (
-    <AuthProvider sdk={authInstance}>
-      <FirestoreProvider sdk={firestoreInstance}>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<LandingPage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/profile" element={<ProfilePage />} />
-            <Route path="/feedpage" element={<FeedPage />} />
-          </Routes>
-        </BrowserRouter>
-      </FirestoreProvider>
-    </AuthProvider>
+    <div className="App">
+      <AuthProvider sdk={authInstance}>
+        <FirestoreProvider sdk={firestoreInstance}>
+          <BrowserRouter>
+            <Routes>
+              <Route index element={<LandingPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/profile" element={<ProfilePage />} />
+              <Route path="/feedpage" element={<FeedPage />} />
+            </Routes>
+          </BrowserRouter>
+        </FirestoreProvider>
+      </AuthProvider>
+    </div>
   );
 }
 
