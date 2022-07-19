@@ -13,10 +13,10 @@ const Header = () => {
         <img className="logo" src={Logo} alt="logo" />
 
         <Stack className="navBar" direction="row" alignItems="left" spacing={2}>
-          <Button color="inherit" onClick={() => navigate(`login`)}>
+          <Button className="navbutton" onClick={() => navigate(`login`)}>
             Log In
           </Button>
-          <Button color="inherit" onClick={() => navigate(`register`)}>
+          <Button className="navbutton"  onClick={() => navigate(`register`)}>
             {" "}
             Sign Up
           </Button>
