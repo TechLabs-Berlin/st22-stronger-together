@@ -1,6 +1,11 @@
+
 .App {
-    text-align: center;
+    height: 100%;
+    width: 100%;
     background: url("../src/img/DoubsBackground.jpg");
     background-size: cover;
+    background-repeat: repeat;
+    object-fit: cover;
+
 
   }

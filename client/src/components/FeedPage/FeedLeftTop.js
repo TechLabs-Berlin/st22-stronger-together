@@ -7,9 +7,11 @@ import { Button, Card } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
-import OutlinedInput from '@mui/material/OutlinedInput';
-import FormControl, { useFormControl } from '@mui/material/FormControl';
-import { height } from "@mui/system";
+import OutlinedInput from "@mui/material/OutlinedInput";
+import FormControl, { useFormControl } from "@mui/material/FormControl";
+import TurnedInNotIcon from "@mui/icons-material/TurnedInNot";
+import CommentIcon from "@mui/icons-material/Comment";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 const FeedLeftTop = () => {
   return (
@@ -76,16 +78,29 @@ const FeedLeftTop = () => {
         </Card>
       </div>
       <div className="buzzComment">
-            <p>buuzzzz</p>
-          </div>
-          <div className="comment">
-          <Avatar className="commentAvatar" src="/broken-image.jpg" sx={{ width: 40, height: 40 }} />
-          <FormControl sx={{ width: '45ch'} }>
-        <OutlinedInput placeholder="comment" />
-      
-      </FormControl>
-          
-          </div>
+        <div className="buzz">
+          <StarBorderIcon />
+          <span>Buzz</span>
+        </div>
+        <div className="comment">
+          <CommentIcon />
+          <span>Comment</span>
+        </div>
+
+        <div className="turnonicon">
+          <TurnedInNotIcon />
+        </div>
+      </div>
+      <div className="comment">
+        <Avatar
+          className="commentAvatar"
+          src="/broken-image.jpg"
+          sx={{ width: 40, height: 40 }}
+        />
+        <FormControl sx={{ width: "45ch" }}>
+          <OutlinedInput placeholder="comment" />
+        </FormControl>
+      </div>
 
       <div>
         <Card className="iseek-community newstyle">
