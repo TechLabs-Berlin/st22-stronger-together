@@ -1,3 +1,6 @@
+// RightSide:
+// side bar menu (1.Feedpage, hangsout, marketplace, blog, chat. 2. Your account, Settings, logout, help)
+//
 import * as React from "react";
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
@@ -6,16 +9,16 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Divider from "@mui/material/Divider";
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import DraftsIcon from "@mui/icons-material/Drafts";
 import ChatIcon from "@mui/icons-material/Chat";
-import FeedIcon from '@mui/icons-material/Feed';
-import PeopleIcon from '@mui/icons-material/People';
+import FeedIcon from "@mui/icons-material/Feed";
+import PeopleIcon from "@mui/icons-material/People";
 import "./RightSide.css";
 
 const RightSide = () => {
   return (
-    <Box className="new" sx={{ width: "100%", maxWidth: 360, }}>
+    <Box className="new" sx={{ width: "100%", maxWidth: 360 }}>
       <nav aria-label="main mailbox folders">
         <List className="rightsidetop">
           <ListItem disablePadding>

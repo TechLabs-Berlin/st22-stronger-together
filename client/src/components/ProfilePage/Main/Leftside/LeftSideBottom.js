@@ -1,3 +1,4 @@
+//LeftSideBottom has User info: date of Birth, home country, current user location, languagies, interests, description about user, what does a user looking for
 import React from "react";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
