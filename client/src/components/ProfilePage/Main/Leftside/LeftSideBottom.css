@@ -86,7 +86,7 @@ p {
   box-sizing: border-box;
 }
 
-.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+.lookingforButton .MuiButtonBase-root {
   letter-spacing: 0.3857em;
   border-radius: 20px;
   background-color: #fff;

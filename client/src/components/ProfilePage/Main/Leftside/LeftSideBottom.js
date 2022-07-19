@@ -82,28 +82,28 @@ const LeftSideBottom = () => {
           <Divider variant="middle" />
         </div>
         <div className="lookingforButton">
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Sport
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Games
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Children
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Music
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Food
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Reading
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Art
           </Button>
-          <Button className="MuiButtonBase-root MuiButton-root MuiButton-text">
+          <Button className="MuiButtonBase-root">
             Theater
           </Button>
         </div>
