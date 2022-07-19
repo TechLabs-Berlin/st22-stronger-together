@@ -22,7 +22,7 @@
   padding-left: 1rem;
 }
 
-img {
+.profileimage {
   height: 10rem;
   width: 10rem;
   background-size: contain;

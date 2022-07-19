@@ -1,4 +1,8 @@
+
+
+
 .feedPageMain {
+  height: 70rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

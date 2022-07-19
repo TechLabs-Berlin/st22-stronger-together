@@ -8,6 +8,7 @@ import FeedPage from "./pages/FeedPage";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { FirestoreProvider, AuthProvider, useFirebaseApp } from "reactfire";
+import "./App.css";
 
 function App() {
   const app = useFirebaseApp();

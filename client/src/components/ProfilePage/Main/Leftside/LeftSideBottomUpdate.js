@@ -11,7 +11,7 @@ import { doc } from "firebase/firestore";
 import { useFirestoreDocData, useFirestore, useSigninCheck, getFirestore } from "reactfire";
 import {getAuth} from 'firebase/auth'
 
-  
+
 const LeftSideBottomUpdate = () => {
   const user = getAuth().currentUser;
 

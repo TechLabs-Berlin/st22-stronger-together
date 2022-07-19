@@ -1,3 +1,5 @@
+// Component containes Fisrt and last Name of a user + profile picture
+
 import React from "react";
 import Divider from "@mui/material/Divider";
 import "./LeftSideTop.css";
@@ -5,8 +7,13 @@ import "./LeftSideTop.css";
 // Firebase
 
 import { doc } from "firebase/firestore";
-import { useFirestoreDocData, useFirestore, useSigninCheck, getFirestore } from "reactfire";
-import {getAuth} from 'firebase/auth'
+import {
+  useFirestoreDocData,
+  useFirestore,
+  useSigninCheck,
+  getFirestore,
+} from "reactfire";
+import { getAuth } from "firebase/auth";
 
 const LeftSideTop = () => {
   // TODO: Use not hardcoded user

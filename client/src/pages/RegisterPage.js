@@ -1,3 +1,5 @@
+// Sign up page with Last-, First name and email
+
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
@@ -14,8 +16,8 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import firebase from 'firebase/compat/app';
-import {db, auth} from '../index.js';
+import firebase from "firebase/compat/app";
+import { db, auth } from "../index.js";
 
 function Copyright(props) {
   return (
@@ -30,7 +32,7 @@ function Copyright(props) {
       {"."}
     </Typography>
   );
-};
+}
 
 const theme = createTheme();
 
@@ -46,7 +48,6 @@ export default function SignUp() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    
 
     const email = data.get("email");
     const password = data.get("password");
@@ -56,10 +57,11 @@ export default function SignUp() {
       email,
       password
     );
-    await db.collection('userProfiles').doc(auth.currentUser.uid).set({
+    await db.collection("userProfiles").doc(auth.currentUser.uid).set({
       uid: auth.currentUser.uid,
       email: email,
-      password: password});
+      password: password,
+    });
     // TODO: Store userInformation somewhere
     navigate("/profile");
   };

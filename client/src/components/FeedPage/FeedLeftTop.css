@@ -79,9 +79,12 @@ h5{
 }
 
 .buzzComment{
-    height: 1.5rem;
+    height: 1.8rem;
     background-color: whitesmoke;
     margin-top: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .comment{
@@ -97,3 +100,17 @@ h5{
     margin-left: 1rem;
     margin-top: 0.5rem;
 }
+
+.turnonicon{
+    margin-left: 16rem;
+}
+
+.buzz{
+    margin-left: 1rem;
+    margin-right: 1rem;   
+}
+
+span{
+    padding-left: 0.2rem;
+}
+
