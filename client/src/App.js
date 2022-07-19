@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import LoginPage from "./pages/LoginPage";
-import ProfilePage from "./pages/ProfilePage";
+import ProfilePageUpdate from "./pages/ProfilePageUpdate";
+import ProfilePageDisplay from "./pages/ProfilePageDisplay";
 import RegisterPage from "./pages/RegisterPage";
 import FeedPage from "./pages/FeedPage";
 import { getFirestore } from "firebase/firestore";
@@ -22,7 +23,8 @@ function App() {
             <Route index element={<LandingPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/profile" element = {<ProfilePageDisplay/>}/>
+            <Route path="/update-profile" element={<ProfilePageUpdate />} />
             <Route path="/feedpage" element={<FeedPage />} />
           </Routes>
         </BrowserRouter>
