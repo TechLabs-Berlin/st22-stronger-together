@@ -9,7 +9,7 @@ import "./Cards.css";
 
 export default function ImgMediaCard() {
   return (
-    <Card className="Card" sx={{ maxWidth: 345 }}>
+    <Card className="card transparent strong" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="make friends"
