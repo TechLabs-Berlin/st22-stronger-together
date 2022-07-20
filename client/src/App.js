@@ -28,6 +28,7 @@ function App() {
               <Route path="/profile" element={<ProfilePageDisplay />} />
               <Route path="/update-profile" element={<ProfilePageUpdate />} />
               <Route path="/feedpage" element={<FeedPage />} />
+              <Route path="/profile/feedpage" element={<FeedPage />} />
             </Routes>
           </BrowserRouter>
         </FirestoreProvider>
