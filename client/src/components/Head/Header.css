@@ -6,7 +6,7 @@ Button.navbutton {
   color: blue;
 }
 
-.navBar.toolBar {
+.NavBar.toolBar{
   background: linear-gradient(
     112.9deg,
     rgba(217, 217, 217, 0.48) 0%,
@@ -17,7 +17,7 @@ Button.navbutton {
 }
 
 .navBar .navButton{
-  height: 51px;
+height: 51px;
 width: 203px;
 text-transform: capitalize;
 border-radius: 10px;

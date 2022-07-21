@@ -8,17 +8,14 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <AppBar className="navBar toolBar" position="sticky">
-
+    <AppBar className="NavBar toolBar" position="sticky">
       <Toolbar>
         <img className="logo" src={Logo} alt="logo" />
-
         <Stack className="navBar" direction="row" alignItems="left" spacing={2}>
           <Button className="navButton" onClick={() => navigate(`login`)}>
             Log In
           </Button>
-          <Button className="navButton"  onClick={() => navigate(`register`)}>
-            {" "}
+          <Button className="navButton" onClick={() => navigate(`register`)}>
             Sign Up
           </Button>
         </Stack>

@@ -2,7 +2,6 @@ import Cards from "../components/Cards";
 import Footer from "../components/Footer";
 import Header from "../components/Head/Header";
 import Hero from "../components/hero";
-import ExplainHero from "../components/other files/ExplainHeroCopy";
 
 function LandingPage() {
   return (
@@ -10,7 +9,6 @@ function LandingPage() {
       <Header />
       <Hero />
       <Cards />
-      <ExplainHero />
       <Footer />
     </div>
   );
