@@ -9,13 +9,18 @@ const Hero = () => {
     <Grid className="hero strong" container spacing={2}>
       <Grid xs={6}>
         <Container>
-          <h1 className="hero_text title"> STRONGER TOGETHER</h1>
+          
+          <h4 className="hero_text">
+            Are you a refugee? <br /> Do you recently moved to Berlin to start a
+            new life? <br />
+            Do you need help? <br />
+          </h4>
           <p className="hero_text">
-            Recently arrived refugees, are often at a loss and feel isolated
-            when they need to start a new life in Berlin. With a social
-            platform, they will be able to connect with local people and other
-            refugees or migrants who can help them discover the city, solve day
-            to day problems, and ultimately: build a community.{" "}
+            With <span>stronger together</span> you <br/> can
+            <span className="localpeople">connect with local people</span> and <br /> people in similar
+            situation. <br /> Meet meet people who can help you <br/> to discover the
+            city, solve dat to day <br /> problems, and ultimately: build a <br />
+            community of stronger people.
           </p>
         </Container>
       </Grid>

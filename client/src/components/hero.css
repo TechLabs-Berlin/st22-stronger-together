@@ -1,10 +1,12 @@
 
 .hero.strong {
     max-width: 80%;
-    height: 450px;
+    height: 600px;
     margin-left:141px;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    padding-top: 10px;
+    padding-left: 2rem;
     background: linear-gradient(
     112.9deg,
     rgba(217, 217, 217, 0.48) 0%,
@@ -13,14 +15,35 @@
   backdrop-filter: blur(100px);
   border-radius: 10px;
   text-align: center;
-}
-.hero_text {
-    margin-top: 4rem;
-    text-align: center; 
+  font-weight: bold;
 }
 
-.hero_pic{
+h4.hero_text{
+    text-align: left; 
+    margin-top: 4rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+
+p.hero_text{
+    margin-top: 4rem;
+    text-align: left; 
+    font-size: large;  
+}
+
+p.hero_text span:not(.localpeople){
+    text-transform: uppercase;   
+}
+
+.localpeople{
+    color: #52796f;
+
+}
+
+.hero.strong .hero_pic{
     text-align: center;
+    margin-top: 120px;
 }
 
  
