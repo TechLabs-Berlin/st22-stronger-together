@@ -31,7 +31,11 @@
     width: 76.34px;
 }
 .social_medial img:hover{
-    background-color: rgb(39, 39, 68);
+    height: 86.34px;
+    width: 86.34px;
+    background-color: #1b2a41;
+    border-radius: 50%;
+    
 }
 
 .footerlogo{
@@ -50,4 +54,5 @@
 }
 .footer_text span:hover{
     background-color: rgb(218, 204, 187);
+    
 }

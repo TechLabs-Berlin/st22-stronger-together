@@ -2,10 +2,6 @@
   margin-left: auto;
 }
 
-Button.navbutton {
-  color: blue;
-}
-
 .NavBar.toolBar{
   background: linear-gradient(
     112.9deg,
@@ -24,8 +20,18 @@ border-radius: 10px;
 background: linear-gradient(112.9deg, rgba(217, 217, 217, 0.48) 0%, rgba(217, 217, 217, 0.36) 99.04%),
 linear-gradient(112.81deg, rgba(255, 255, 255, 0.6) 0.35%, rgba(255, 255, 255, 0) 100%);
 margin: 1rem;
+color: aliceblue;
 
+}
+
+
+.navBar .navButton.signUp{
+  background-color: #ff9f1c;
 }
 .navBar .navButton:hover{
   background-color: rgb(241, 228, 210);
+  height: 41px;
+  width: 193px;
+  margin-top: 21px;
+  color: #1b2a41;
 }

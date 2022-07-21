@@ -15,7 +15,7 @@ const Header = () => {
           <Button className="navButton" onClick={() => navigate(`login`)}>
             Log In
           </Button>
-          <Button className="navButton" onClick={() => navigate(`register`)}>
+          <Button className="navButton signUp" onClick={() => navigate(`register`)}>
             Sign Up
           </Button>
         </Stack>
