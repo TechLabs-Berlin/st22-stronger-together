@@ -11,7 +11,7 @@ const Hero = () => {
         <Container>
           
           <h4 className="hero_text">
-            Are you a refugee? <br /> Do you recently moved to Berlin to start a
+            Are you a refugee? <br /> Do you recently moved to <br /> Berlin to start a
             new life? <br />
             Do you need help? <br />
           </h4>
