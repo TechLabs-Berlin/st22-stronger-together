@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Stack, Button } from "@mui/material";
-import Logo from "../../img/Logo1logo.png";
+import Logo from "../../img/Logo1.png";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 

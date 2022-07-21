@@ -1,4 +1,4 @@
-import Cards from "../components/Cards";
+import CardDetails from "../components/Cards/CardDetails";
 import Footer from "../components/Footer";
 import Header from "../components/Head/Header";
 import Hero from "../components/hero";
@@ -8,10 +8,11 @@ function LandingPage() {
     <div>
       <Header />
       <Hero />
-      <Cards />
+      <CardDetails />
       <Footer />
     </div>
   );
 }
 
 export default LandingPage;
+

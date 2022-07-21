@@ -1,13 +1,13 @@
-.align_cards{
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
 
+.cardmain{height: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+  box-sizing: border-box;
 
-.card.transparent.strong{
-    background: linear-gradient(
+  background: linear-gradient(
     112.9deg,
     rgba(217, 217, 217, 0.48) 0%,
     rgba(217, 217, 217, 0.12) 99.04%
@@ -15,4 +15,47 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(100px);
   border-radius: 10px;
+
 }
+
+
+
+.card_content{
+  height: 386px;
+width: 432px;
+margin-left: 50px;
+margin-right: 40px;
+margin-top: 12px;
+border-radius: 0px;
+
+   background: linear-gradient(
+    112.9deg,
+    rgba(217, 217, 217, 0.48) 0%,
+    rgba(217, 217, 217, 0.12) 99.04%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px); 
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #1b2a41;
+  
+
+}
+
+.card_content  img{
+  height: 250px;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.card_content:nth-child(2){
+  margin-top: 90px;
+}
+
+.card_content:nth-child(3){
+  margin-top: 170px;
+}
+
+
