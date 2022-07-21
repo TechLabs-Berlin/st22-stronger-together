@@ -15,7 +15,7 @@ const callToAction = () => {
         height="100%"
         alt="Illustration Sign Up"
       />
-      <Button className="navButton signUp">Sign Up</Button>
+      <Button className="navButton signUp  ">Sign Up</Button>
     </div>
   );
 };
