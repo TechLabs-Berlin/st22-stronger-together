@@ -1,38 +1,45 @@
-import { Typography } from "@mui/material";
+import React from "react";
+import { AppBar, Toolbar, Stack, Button } from "@mui/material";
+import Logo from "../img/footer_logo.png";
+import facebook from "../img/facebook_logo.png";
+import instagram from "../img/instagram_logo.png";
+import twitter from "../img/twitter_logo.png";
+import linkedIn from "../img/linkedIn_logo.png";
+import "./Footer.css";
+import { useNavigate } from "react-router-dom";
 
-const links = [
-  { displayName: "A", href: "" },
-  { displayName: "B", href: "" },
-  { displayName: "C", href: "" },
-];
 
-function Footer() {
+
+
+const Footer = () => {
+  const navigate = useNavigate();
+
   return (
-    <footer
-      className="text-center text-lg-start text-white"
-      style={{ backgroundColor: "#3e4551" }}
-    >
-      <div className="container p-4 pb-0">
-        <section className="">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <Typography variant="h5">STRONGER TOGETHER</Typography>
-              <Typography variant="p">
-                
-              </Typography>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div
-        className="text-center p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-      >
-        © 2022
+    <AppBar className="footer toolBar" position="sticky">
+
+      <Toolbar className="footerlogos">
+        <img className="footerlogo" src={Logo} alt="logo" />
+
+        <Stack className="social_medial" direction="row" alignItems="left" spacing={2}>
+        <img src={facebook} alt="facebooklogo" />
+        <img src={instagram} alt="instagramlogo" />
+        <img src={twitter} alt="twitterlogo" />
+        <img  src={linkedIn} alt="linkedInlogo" />
+        </Stack>
         
+      </Toolbar>
+      <div className="footer_text">
+        <span>© 2022</span>
+        <span>Imprint</span>
+        <span>Term of Use</span>
+        <span>help</span>
+        <span>privacy notice</span>
+        <span>data preferences</span>
       </div>
-    </footer>
-  );
-}
+      
+    </AppBar>
+
+    );
+};
 
 export default Footer;

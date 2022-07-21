@@ -4,6 +4,7 @@ import LeftSideBottomDisplay from "../components/ProfilePage/Main/Leftside/LeftS
 import LeftSideTop from "../components/ProfilePage/Main/Leftside/LeftSideTop";
 import RightSide from "../components/ProfilePage/Main/Rightside/RightSide";
 import "./ProfilePage.css";
+import Footer from "../components/Footer";
 
 const ProfilePageDisplay = () => {
   return (
@@ -16,6 +17,7 @@ const ProfilePageDisplay = () => {
         </main>
         <RightSide />
       </section>
+      <Footer />
     </div>
   );
 };
