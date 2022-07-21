@@ -18,8 +18,8 @@ const Hero = () => {
           <p className="hero_text">
             With <span>stronger together</span> you <br/> can
             <span className="localpeople">connect with local people</span> and <br /> people in similar
-            situation. <br /> Meet meet people who can help you <br/> to discover the
-            city, solve dat to day <br /> problems, and ultimately: build a <br />
+            situation. <br /> Meet people who can help you  to <br/> discover the
+            city, solve day to day <br /> problems, and ultimately: build a <br />
             community of stronger people.
           </p>
         </Container>

@@ -34,7 +34,8 @@ p.hero_text{
 }
 
 p.hero_text span:not(.localpeople){
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    font-size: larger;   
 }
 
 .localpeople{
