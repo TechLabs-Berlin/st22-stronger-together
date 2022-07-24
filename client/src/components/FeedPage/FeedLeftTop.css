@@ -1,0 +1,117 @@
+.feedLeftTop{
+    height:16rem;
+    width: 30rem;
+    background-color: rgb(235, 233, 230);
+    box-sizing: border-box;
+    
+    
+}
+
+.interest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 1rem;
+    background-color: antiquewhite;
+
+}
+
+.avatar{
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    
+}
+
+.feedlinks{
+    height: 95px;
+    width: 446px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.feedbutton{
+    letter-spacing: 0.05857em;
+    border: 1px solid grey;
+    border-radius: 0px;
+    height: 4rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.iseek-community{
+    height: 22.5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.iseek-Text{
+    height: 1.5rem;
+    background-color: rgba(99, 41, 41, 0.61);
+}
+
+.IseekInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    line-height: 1px;
+    
+}
+
+h5{
+    padding-left: 1rem;
+}
+
+.empty{
+    height: 8rem;
+    background-color: rgb(231, 234, 236);
+    margin-top: 0.5rem;
+}
+
+.buzzComment{
+    height: 1.8rem;
+    background-color: whitesmoke;
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comment{
+    height: 3.5rem;
+    background-color: whitesmoke;
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.commentAvatar{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.turnonicon{
+    margin-left: 16rem;
+}
+
+.buzz{
+    margin-left: 1rem;
+    margin-right: 1rem;   
+}
+
+span{
+    padding-left: 0.2rem;
+}
+

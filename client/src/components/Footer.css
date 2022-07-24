@@ -1,0 +1,58 @@
+.footer.toolBar{
+    background: linear-gradient(
+    112.9deg,
+    rgba(217, 217, 217, 0.48) 0%,
+    rgba(217, 217, 217, 0.12) 99.04%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px);
+  box-sizing: border-box;
+  margin: auto;
+  height: 260px;
+  
+
+
+}
+
+.footerlogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:60px ;
+}
+.social_medial{
+    margin-top: 54px;
+
+}
+
+
+.social_medial img{
+    height: 76.34px;
+    width: 76.34px;
+}
+.social_medial img:hover{
+    height: 86.34px;
+    width: 86.34px;
+    background-color: #1b2a41;
+    border-radius: 50%;
+    
+}
+
+.footerlogo{
+    height: 100px;
+    width: 230px;
+    margin-top: 42px;
+
+}
+
+.footer_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: capitalize;
+    margin: 0 142px;   
+}
+.footer_text span:hover{
+    background-color: rgb(218, 204, 187);
+    
+}
