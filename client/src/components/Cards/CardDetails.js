@@ -14,19 +14,19 @@ const CardDetails = (props) => {
     <Card className="cardmain">
       <CardContent className="card_content">
         <img className="meetpeople" src={MeetPeople} alt="peoples_image" />
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography className="text" gutterBottom variant="h5" component="div">
           Meet People
         </Typography>
       </CardContent>
       <CardContent className="card_content">
         <img className="hangouts" src={Hangouts} alt="peoples_image" />
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography className="text" gutterBottom variant="h5" component="div">
           Hangouts
         </Typography>
       </CardContent>
       <CardContent className="card_content">
         <img className="marketplace" src={MarketPlace} alt="peoples_image" />
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography className="text" gutterBottom variant="h5" component="div">
           Marketplace
         </Typography>
       </CardContent>

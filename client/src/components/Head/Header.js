@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <AppBar className="NavBar toolBar" position="sticky">
-      <Toolbar>
+      <Toolbar className="toolBar">
         <img className="logo" src={Logo} alt="logo" />
         <Stack className="navBar" direction="row" alignItems="left" spacing={2}>
           <Button className="navButton" onClick={() => navigate(`login`)}>

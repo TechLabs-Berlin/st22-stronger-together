@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const ProfilePageDisplay = () => {
   return (
-    <div className="profilepagebody">
+    <div>
       <Navbar />
       <section className="profilePageMain">
         <main className="leftSide">

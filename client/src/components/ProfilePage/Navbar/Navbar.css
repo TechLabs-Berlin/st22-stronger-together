@@ -1,40 +1,41 @@
-.MuiAppBar-colorPrimary.toolbar.new {
-  background-color: rgb(189, 157, 157);
-  width: 100%;
-  height: 6rem;
+.navBar {
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.NavBar.toolBar{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  background: linear-gradient(
+    112.9deg,
+    rgba(217, 217, 217, 0.48) 0%,
+    rgba(217, 217, 217, 0.12) 99.04%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px);
+}
+
+.NavBar.toolBar .navBarLeft{
+  height: 60px;
+  width: 300px;
+  display: inline-block;
   box-sizing: border-box;
-
+  margin-left: 35rem;
 }
 
-.navleft.new.style {
-  display: flex;
-  flex-direction: row;
-  margin-left: 28rem;
-  margin-top: 3rem;
-  box-sizing: border-box;
+.NavBar.toolBar .logo{
+  
 }
 
-.mailbag.new {
-  padding-top: 1rem;
-  margin-right: 1rem;
-  height: 4rem;
-  width: 2rem;
-  box-sizing: border-box;
+ .navBarLeft .searchIcon.new{
+  height: 60px;
+  width: 60px;
+  padding-left: 5px;
 }
 
-#outlined-basic.textField {
-  height: 1rem;
-  width: 15rem;
-  box-sizing: border-box;
-  margin-bottom: 2rem;
-  background-color: #fff;
-  border: 1px solid grey;
-}
 
-.searchIcon.new {
-  height: 3rem;
-  width: 3rem;
-}
+
+
+

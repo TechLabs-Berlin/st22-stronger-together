@@ -58,4 +58,9 @@ border-radius: 0px;
   margin-top: 170px;
 }
 
+.card_content .text:hover{
+  background-color: antiquewhite;
+
+}
+
 

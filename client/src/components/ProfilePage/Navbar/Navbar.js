@@ -1,35 +1,23 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  TextField,
-} from "@mui/material";
-import { Stack } from "@mui/material";
-import Badge from "@mui/material/Badge";
-import MailIcon from "@mui/icons-material/Mail";
-import SearchIcon from "@mui/icons-material/Search";
+import { AppBar, Toolbar, Stack } from "@mui/material";
+import Logo from "../../../img/Logo1.png";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
+import { TextField } from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
-    <AppBar position="static">
-      <Toolbar className="MuiAppBar-colorPrimary toolbar new">
-        <IconButton size="large" edge="start" aria-label="logo"></IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          STRONGER <br />
-          TOGETHER
-        </Typography>
-        <Stack className="navleft new style">
-          <Badge className="mailbag new" badgeContent={4} color="primary">
-            <MailIcon color="action" />
-          </Badge>
+    <AppBar className="NavBar toolBar" position="sticky">
+      <Toolbar>
+        <img className="logo" src={Logo} alt="logo" />
+        <Stack className="navBarLeft ">
           <TextField
-            className="textField"
-            id="outlined-basic"
+            className="textField" 
             label="Search"
-            variant="outlined"
+            
           />
           <SearchIcon className="searchIcon new"></SearchIcon>
         </Stack>

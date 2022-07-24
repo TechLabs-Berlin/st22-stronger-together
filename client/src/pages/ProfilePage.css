@@ -2,15 +2,16 @@ html{
     margin-right: 1rem;
     margin-left: 1rem;
 }
-.profilepagebody {
-  margin-left: 0;
-}
+
 
 .profilePageMain {
+  height: 100rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  
 }
 
 .leftSide {

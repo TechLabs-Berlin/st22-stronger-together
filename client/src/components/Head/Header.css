@@ -12,6 +12,10 @@
   backdrop-filter: blur(100px);
 }
 
+.toolBar .navBar{
+  margin-left: 28rem;
+}
+
 .navBar .navButton{
 height: 51px;
 width: 203px;
@@ -21,6 +25,7 @@ background: linear-gradient(112.9deg, rgba(217, 217, 217, 0.48) 0%, rgba(217, 21
 linear-gradient(112.81deg, rgba(255, 255, 255, 0.6) 0.35%, rgba(255, 255, 255, 0) 100%);
 margin: 1rem;
 color: aliceblue;
+
 
 }
 

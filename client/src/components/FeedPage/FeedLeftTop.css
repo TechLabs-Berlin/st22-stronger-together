@@ -1,5 +1,5 @@
 .feedLeftTop{
-    height: 15rem;
+    height:16rem;
     width: 30rem;
     background-color: rgb(235, 233, 230);
     box-sizing: border-box;
@@ -20,6 +20,7 @@
 .avatar{
     padding-top: 0.2rem;
     padding-left: 0.2rem;
+    
 }
 
 .feedlinks{
