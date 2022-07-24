@@ -1,0 +1,1 @@
+Recently arrived refugees, are often at a loss and feel isolated when they need to start a new life in Berlin. With an app, they will be able to connect with local people and other refugees or migrants who can help them discover the city, and build a community
